@@ -6,7 +6,7 @@ import { Layout } from '@/components/Layout';
 import { GamePlayArea } from '@/components/GamePlayArea';
 import { GameIntro } from '@/components/GameIntro';
 import { RelatedGames } from '@/components/RelatedGames';
-import gameData from '@/data/spacebar-clicker.json';
+import gameData from '@/data/electron-dash.json';
 import relatedGames from '@/data/related_games.json';
 import { GameConfig } from '@/types';
 import { markdownToHtml } from '@/lib/markdownToHtml';
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 };
 
 const App = async () => {
-  const filePath = path.join(process.cwd(), 'src/data/spacebar-clicker.md');
+  const filePath = path.join(process.cwd(), 'src/data/electron-dash.md');
   const gameContentMarkdown = fs.readFileSync(filePath, 'utf-8');
   const gameContentHtml = await markdownToHtml(gameContentMarkdown);
 

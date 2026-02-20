@@ -33,7 +33,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
           {/* Logo */}
           <a href="/" className="flex items-center gap-2 font-bold text-xl text-indigo-400 shrink-0 cursor-pointer hover:opacity-80 transition-opacity" aria-label="Spacebar Clicker Home">
             <Gamepad2 className="w-7 h-7" />
-            <span className="hidden sm:inline-block">Spacebar Clicker</span>
+            <span className="hidden sm:inline-block">Electron Dash</span>
           </a>
 
           {/* Navigation Links */}
@@ -91,7 +91,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
             <a href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
             <a href="/terms" className="hover:text-slate-300 transition-colors">Terms of Service</a>
           </div>
-          <p>&copy; {new Date().getFullYear()} Spacebar Clicker. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Electron Dash. All rights reserved.</p>
         </div>
       </footer>
     </div>

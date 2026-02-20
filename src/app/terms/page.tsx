@@ -2,8 +2,8 @@ import React from 'react';
 import { Layout } from '@/components/Layout';
 
 export const metadata = {
-    title: 'Terms of Service - Spacebar Clicker',
-    description: 'Terms of Service for Spacebar Clicker',
+    title: 'Terms of Service - Electron Dash',
+    description: 'Terms of Service for Electron Dash',
 };
 
 export default function TermsPage() {
@@ -32,7 +32,7 @@ export default function TermsPage() {
                     <section className="mb-8">
                         <h2 className="text-xl font-semibold text-white mb-4">3. Disclaimer</h2>
                         <p className="text-slate-300">
-                            The materials on Spacebar Clicker's website are provided on an 'as is' basis. Spacebar Clicker makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+                            The materials on Electron Dash's website are provided on an 'as is' basis. Electron Dash makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
                         </p>
                     </section>
                 </div>
