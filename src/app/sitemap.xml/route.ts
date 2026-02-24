@@ -1,7 +1,7 @@
 import { getUrl, getImage } from '@/lib/helper';
 import allGames from '@/data/all_games.json';
 
-const BASE_URL = 'https://space-bar-clicker.com';
+const BASE_URL = 'https://electron-dash-online.com';
 
 export async function GET() {
     const games = allGames;
